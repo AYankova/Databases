@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xslt"?>
+<students xmlns:students="urn:students">
+  <student>
+    <name>Bono Vox</name>
+    <sex>Male</sex>
+    <birthDate>1960-05-10</birthDate>
+    <phone>+555555555</phone>
+    <email>bono.vox@u2.com</email>
+    <course>Music</course>
+    <specialty>Rock</specialty>
+    <facultyNumber>22002</facultyNumber>
+    <exams>
+      <exam>
+        <name>Guitar Playing</name>
+        <tutor>Jimi Hendrix</tutor>
+        <score>100</score>
+      </exam>
+      <exam>
+        <name>Music History</name>
+        <tutor>David Bowie</tutor>
+        <score>100</score>
+      </exam>
+      <exam>
+        <name>Singing</name>
+        <tutor>Ozzy Osbourne</tutor>
+        <score>100</score>
+      </exam>
+    </exams>
+    <enrollment-info>
+      <date>2000-01-01</date>
+      <exam-score>6.0</exam-score>
+    </enrollment-info>
+    <teacher-endorsements>
+      <teacher-endorsement>
+        <teacher-name>Ozzy Osbourne</teacher-name>
+        <status>true</status>
+      </teacher-endorsement>
+      <teacher-endorsement>
+        <teacher-name>David Bowie</teacher-name>
+        <status>true</status>
+      </teacher-endorsement>
+    </teacher-endorsements>
+  </student>
+  <student>
+    <name>Keanu Reeves</name>
+    <sex>Male</sex>
+    <birthDate>1964-09-02</birthDate>
+    <phone>+666666666</phone>
+    <email>keanu@reeves.com</email>
+    <course>Acting</course>
+    <specialty>Drama</specialty>
+    <facultyNumber>02100</facultyNumber>
+    <exams>
+      <exam>
+        <name>ActingTechnique</name>
+        <tutor>Marlon Brando</tutor>
+        <score>200</score>
+      </exam>
+      <exam>
+        <name>Speech</name>
+        <tutor>Robert De Niro</tutor>
+        <score>200</score>
+      </exam>
+      <exam>
+        <name>Scene Study</name>
+        <tutor>Daniel Day-Lewis</tutor>
+        <score>200</score>
+      </exam>
+    </exams>
+    <enrollment-info>
+      <date>2002-11-11</date>
+      <exam-score>6.0</exam-score>
+    </enrollment-info>
+    <teacher-endorsements>
+      <teacher-endorsement>
+        <teacher-name>Marlon Brando</teacher-name>
+        <status>true</status>
+      </teacher-endorsement>
+    </teacher-endorsements>
+  </student>
+</students>
