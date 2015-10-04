@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalogue>
+  <album>
+    <name>Appetite For Destruction</name>
+    <artist>Guns N' Roses</artist>
+    <year>19871</year>
+    <producer>Mike Clink</producer>
+    <price>30.99</price>
+    <songs>
+      <song>
+        <title>Welcome To The Jungle</title>
+        <duration>4:31</duration>
+      </song>
+      <song>
+        <title>Paradise City</title>
+        <duration>006:46</duration>
+      </song>
+      <song>
+        <title>Sweet Child O' Mine</title>
+        <duration>5:55</duration>
+      </song>
+    </songs>
+  </album>
+</catalogue>
