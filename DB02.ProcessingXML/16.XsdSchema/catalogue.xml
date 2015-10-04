@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalogue>
+  <album>
+    <name>Appetite For Destruction</name>
+    <artist>Guns N' Roses</artist>
+    <year>1987</year>
+    <producer>Mike Clink</producer>
+    <price>30.99</price>
+    <songs>
+      <song>
+        <title>Welcome To The Jungle</title>
+        <duration>4:31</duration>
+      </song>
+      <song>
+        <title>Paradise City</title>
+        <duration>6:46</duration>
+      </song>
+      <song>
+        <title>Sweet Child O' Mine</title>
+        <duration>5:55</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Crush</name>
+    <artist>Bon Jovi</artist>
+    <year>2000</year>
+    <producer>Luke Ebbin, Jon Bon Jovi, Richie Sambora</producer>
+    <price>24.99</price>
+    <songs>
+      <song>
+        <title>One Wild Night</title>
+        <duration>4:18</duration>
+      </song>
+      <song>
+        <title>It's My Life</title>
+        <duration>3:44</duration>
+      </song>
+      <song>
+        <title>Thank You for Loving Me</title>
+        <duration>5:09</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Back In Black</name>
+    <artist>AC/DC</artist>
+    <year>1980</year>
+    <producer>Robert John "Mutt" Lange</producer>
+    <price>14.99</price>
+    <songs>
+      <song>
+        <title>You Shook Me All Night Long</title>
+        <duration>3:30</duration>
+      </song>
+      <song>
+        <title>Shoot To Thrill</title>
+        <duration>5:17</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Slippery When Wet</name>
+    <artist>Bon Jovi</artist>
+    <year>1986</year>
+    <producer>Bruce Fairbairn</producer>
+    <price>19.99</price>
+    <songs>
+      <song>
+        <title>You Give Love a Bad Name</title>
+        <duration>4:42</duration>
+      </song>
+      <song>
+        <title>Livin' on a Prayer</title>
+        <duration>4:09</duration>
+      </song>
+      <song>
+        <title>Wanted Dead or Alive</title>
+        <duration>5:08</duration>
+      </song>
+      <song>
+        <title>Never Say Goodbye</title>
+        <duration>4:48</duration>
+      </song>
+    </songs>
+  </album>
+</catalogue>
