@@ -61,6 +61,7 @@ GO
 
 EXEC usp_PeopleWithMoreMoneyInTheirBankAccountThan 20
 GO
+
 --Task 3: Create a function that accepts as parameters – sum, yearly interest rate and number of months.
 --It should calculate and return the new sum.
 --Write a SELECT to test whether the function works as expected.
@@ -77,6 +78,7 @@ GO
 SELECT Balance, dbo.ufn_CalcuLateSumWithYearlyInterest(Balance, 8, 3) AS [Sum with calculated interest]
 FROM Accounts
 GO
+
 --Task 4: Create a stored procedure that uses the function from the previous example to give an interest to a person's 
 --account for one month.
 --It should take the AccountId and the interest rate as parameters.
@@ -92,6 +94,7 @@ GO
 
 EXEC usp_GiveAnInterestForOneMonth 1, 12
 GO
+
 --Task 5: Add two more stored procedures WithdrawMoney(AccountId, money) and DepositMoney(AccountId, money) that operate 
 --in transactions.
 
@@ -116,6 +119,7 @@ GO
 EXEC usp_DepositMoney 3, 5000
 
 EXEC usp_WithdrawMoney 3, 20
+GO
 
 --Task 6:  Create another table – Logs(LogID, AccountID, OldSum, NewSum).
 --Add a trigger to the Accounts table that enters a new entry into the Logs table every time the sum on an account 
@@ -221,7 +225,7 @@ print 'Total records: ' + CAST(@counter AS nvarchar(10));
 CLOSE empCursor
 DEALLOCATE empCursor
 
---Òàsê9: Write a T-SQL script that shows for each town a list of all employees that live in it. 
+--Task9: Write a T-SQL script that shows for each town a list of all employees that live in it. 
 CREATE TABLE #UsersTowns (ID INT IDENTITY, FullName NVARCHAR(50), TownName NVARCHAR(50))
 INSERT INTO #UsersTowns
 SELECT e.FirstName + ' ' + e.LastName, t.Name
