@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Models", "BookStore.Models\BookStore.Models.csproj", "{1CE9EA0D-5458-445A-8627-582E194E6963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Data", "BookStore.Data\BookStore.Data.csproj", "{6AAC77F0-CFBA-4234-923B-27623682BA68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Importer", "BookStore.Importer\BookStore.Importer.csproj", "{7F2466CC-BE0E-4747-A105-388B915EC6F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CE9EA0D-5458-445A-8627-582E194E6963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE9EA0D-5458-445A-8627-582E194E6963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE9EA0D-5458-445A-8627-582E194E6963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE9EA0D-5458-445A-8627-582E194E6963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AAC77F0-CFBA-4234-923B-27623682BA68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AAC77F0-CFBA-4234-923B-27623682BA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AAC77F0-CFBA-4234-923B-27623682BA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AAC77F0-CFBA-4234-923B-27623682BA68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F2466CC-BE0E-4747-A105-388B915EC6F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F2466CC-BE0E-4747-A105-388B915EC6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F2466CC-BE0E-4747-A105-388B915EC6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F2466CC-BE0E-4747-A105-388B915EC6F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
